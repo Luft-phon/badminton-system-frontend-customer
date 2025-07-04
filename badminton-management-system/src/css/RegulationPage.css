@@ -1,0 +1,43 @@
+.regulation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /* dark overlay */
+        url('/photos/event.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 100px;
+    
+}
+
+.regulation h1 {
+    font-family: var(--heading);
+}
+
+.regulation p {
+    font-size: var(--font-content-size);
+    line-height: 1.5;
+    font-family: var(--content);
+}
+
+.regulation-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+    gap: 10px;
+}
+
+.regulation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

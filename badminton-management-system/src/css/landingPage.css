@@ -1,0 +1,264 @@
+#welcome {
+  height: 100vh;
+  /* background: #f0f0f0; */
+  color: 'rgb(30, 29, 29)';
+}
+
+section {
+  min-height: 100vh;
+  /* width: 100%; */
+  background-color: white;
+
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* full screen */
+  /* padding: 40px; */
+  gap: 40px;
+  position: relative;
+
+}
+
+.content {
+  color: var(--black);
+
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.welcome-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.landing-btn {
+  border: none;
+  width: 200px;
+}
+
+.landing-btn:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.05);
+  box-shadow: 2px;
+}
+
+.landing-btn:focus {
+  outline: none;
+}
+
+/* section2 */
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  padding: 40px 20px;
+  gap: 20px;
+  color: var(--black);
+
+
+}
+
+.about-photo {
+  height: 80%;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  padding: 50px 30px;
+  gap: 30px;
+}
+
+.about-content {
+  color: var(--black);
+  text-align: center;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* contact */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  gap: 20px;
+  color: var(--black);
+
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+
+.contact-title,
+.about-title,
+.lesson-title {
+  font-family: var(--heading);
+}
+
+.contact-subtitle,
+.about-subtitle,
+.lesson-subtitle {
+  font-family: var(--content);
+  max-width: 500px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon {
+  background-color: #fff1e6;
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info h4 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 16px;
+  color: var(--black);
+
+}
+
+.info p {
+  margin: 2px 0 0;
+  color: #555;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: var(--heading);
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 100px;
+  }
+}
+
+/* Event */
+.event-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.event-content-title {
+  font-family: var(--heading);
+  color: var(--black);
+
+}
+
+.event-content ul,
+.event-content p {
+  color: var(--black);
+
+  font-family: var(--content);
+  font-size: var(--font-content-size);
+  text-align: start;
+}
+
+.event-content ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  align-items: start;
+  padding: 10px 0px;
+}
+
+.event-content li {
+  display: flex;
+  margin: 0;
+  padding: 10px 0;
+  gap: 10px;
+  align-items: center;
+}
+
+#event {
+  display: flex;
+  justify-content: center;
+  padding: 0 3em;
+}
+
+.event-image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.event-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Lesson  */
+#lesson {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  padding: 40px 20px;
+  gap: 20px;
+  color: var(--black);
+
+  background-color: #f0f5fa;
+}
