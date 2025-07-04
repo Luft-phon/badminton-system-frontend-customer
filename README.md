@@ -1,4 +1,13 @@
-<h1 align="center"> Booking Badminton Court System </h1>
+<h1 align="center"> 🏸 Booking Badminton Court System </h1>
+<p align="center">A modern solution for professionally showcasing skills, projects, and experience. Built with React.js.</p>
+ <img alt="Fav Icon Png" src="https://github.com/Luft-phon/badminton-system-frontend-customer/blob/main/badminton-management-system/photos/github-photos.jpg"/>
+
+ <details>
+   <summary align="center">VIEW MORE PHOTOS HERE</summary>
+    <img alt="Fav Icon Png" src="https://github.com/Luft-phon/badminton-system-frontend-customer/blob/main/badminton-management-system/photos/github-about.jpg" />
+   <img alt="Fav Icon Png" src="https://github.com/Luft-phon/badminton-system-frontend-customer/blob/main/badminton-management-system/photos/github-lessons.jpg"/>
+   <img alt="Fav Icon Png" src="https://github.com/Luft-phon/badminton-system-frontend-customer/blob/main/badminton-management-system/photos/github-contact.jpg"/>
+ </details>
 
 ## 🌐  What is this website?
 This website is a modern landing page for a badminton court booking system. It allows players to:
