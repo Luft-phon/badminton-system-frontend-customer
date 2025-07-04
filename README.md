@@ -1,6 +1,6 @@
 <h1 align="center"> Booking Badminton Court System </h1>
 
-## What is this website?
+## 🌐  What is this website?
 This website is a modern landing page for a badminton court booking system. It allows players to:
 - 📅 Easily book courts online<br>
 - 📍 Explore available time slots & locations
