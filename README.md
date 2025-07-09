@@ -38,7 +38,7 @@ cd badminton-management-system
 ```
 3. Install the dependencies using npm
 ```
-npm instal
+npm install
 ```
 4. Run the production
 ```
