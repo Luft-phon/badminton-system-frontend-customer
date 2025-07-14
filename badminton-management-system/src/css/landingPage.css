@@ -49,6 +49,15 @@ section {
 .landing-btn {
   border: none;
   width: 200px;
+  background-color: var(--textColor);
+  color: var(--mainColor);
+  /* padding: 0.5rem 1rem; */
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease-in-out;
+  padding: 5px;
 }
 
 .landing-btn:hover {
