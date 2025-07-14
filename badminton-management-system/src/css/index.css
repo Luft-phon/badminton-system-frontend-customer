@@ -19,7 +19,7 @@
   --background: #e8e4e6;    /*white*/
   --highlight: #65da69;     /*yellow*/
   --black: rgb(30, 29, 29);
-
+  --white-font: #e8e4e6;
   /* FONTS */
   --heading: "Montserrat", sans-serif;
   --content: "Figtree", sans-serif;
