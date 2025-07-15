@@ -22,6 +22,7 @@ This website is a modern landing page for a badminton court booking system. It a
 - React 18
 - Vite
 - React Libraries (React Router, React Awesome Reveal, React Icons, ... )
+- UI Library (Redix)
 
 ## 📌 Prerequisite
 - VS Studio Code
