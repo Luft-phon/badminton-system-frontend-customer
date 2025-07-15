@@ -3,12 +3,14 @@ import { unstable_PasswordToggleField as PasswordToggleField } from "radix-ui";
 import { EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
 import "../css/PasswordField.css";
 
-function PasswordToggleFieldInput(){
+function PasswordToggleFieldInput({value, onChange}){
     return(
 	<PasswordToggleField.Root>
       <div className="form-group password-toggle-wrapper">
         <PasswordToggleField.Input
           className="password-input"
+          value={value}                // ✅ phải có dòng này
+          onChange={onChange}  
           placeholder="Enter your password"
           required
         />
