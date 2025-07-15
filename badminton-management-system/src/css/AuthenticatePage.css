@@ -1,0 +1,32 @@
+.login-container {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    background-image:
+        linear-gradient(rgba(52, 51, 51, 0.5), rgba(0, 0, 0, 0.5)),
+        /* dark overlay */
+        url('/photos/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-title {
+    max-width: 500px;
+}
+
+.logo-title::after {
+    content: " Member";
+    color: var(--highlight);
+}
+

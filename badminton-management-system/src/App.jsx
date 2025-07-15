@@ -3,8 +3,9 @@ import Navbar from './component/Navbar';
 import Footer from './component/Footer';
 import LandingPage from './page/landingPage';
 import RegulationPage from './page/RegulationPage';
-import LoginPage from './page/LoginPage';
+import AuthenticatePage from './page/AuthenticatePage';
 import './css/App.css';
+import RegisterPage from './page/RegisterPage';
 
 function App() {
   const location = useLocation();
@@ -19,7 +20,8 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/regulation" element={<RegulationPage />} />
           {/* Trang login cũng nằm trong Routes chung */}
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/login" element={<AuthenticatePage />} />
+          <Route path="/register" element={<RegisterPage />} />
         </Routes>
       </main>
 
