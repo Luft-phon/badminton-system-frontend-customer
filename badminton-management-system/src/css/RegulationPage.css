@@ -33,6 +33,7 @@
     text-align: center;
     margin-bottom: 100px;
     gap: 10px;
+    color: var(--background);
 }
 
 .regulation-list {

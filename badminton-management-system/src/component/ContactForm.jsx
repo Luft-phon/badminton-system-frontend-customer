@@ -9,12 +9,11 @@ function ContactForm() {
         message: "",
     });
 
+
     const handleChange = (e) => {
-        setFormData((prev) => ({
-            ...prev,
-            [e.target.name]: e.target.value,
-        }));
-    };
+        setFormData((prev) => ({...prev, [e.target.name]: e.target.value}));
+    }
+
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -32,6 +31,12 @@ function ContactForm() {
             })
             .then((data) => {
                 alert("Message sent successfully!");
+                setFormData({
+                    fullname: "",
+                    email: "",
+                    title: "",
+                    message: "",
+                });
                 return;
             })
             .catch((err) => {
