@@ -1,0 +1,25 @@
+.tag-container {
+    /* height: 100%; */
+    max-width: 500px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+/* .tag-container:hover {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+} */
+
+.booking-info-title {
+    font-family: var(--heading);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.booking-info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family:  var(--content);
+}

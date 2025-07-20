@@ -1,32 +1,35 @@
-import { useLocation, Routes, Route } from 'react-router-dom';
-import Navbar from './component/Navbar';
-import Footer from './component/Footer';
-import LandingPage from './page/landingPage';
-import RegulationPage from './page/RegulationPage';
-import AuthenticatePage from './page/AuthenticatePage';
-import './css/App.css';
-import RegisterPage from './page/RegisterPage';
+import { Routes, Route, useLocation, Navigate } from "react-router-dom";
+import PublicLayout from "./Layout/PublicLayout";
+import DashboardLayout from "./Layout/DashboardLayout";
+import LandingPage from "./page/LandingPage";
+import RegulationPage from "./page/RegulationPage";
+import AuthenticatePage from "./page/AuthenticatePage";
+import RegisterPage from "./page/RegisterPage";
+import Dashboard from "../src/page/Dashboard";
+import VerificationPage from "./page/VerificationPage";
+import BookingConfirmationPage from "./page/BookingConfirmationPage";
+import UserDetailPage from "./page/UserDetailPage";
 
 function App() {
-  const location = useLocation();
-  const isLoginPage = location.pathname === '/login';
-
   return (
-    <div className="container">
-     <Navbar />
+    <Routes>
+      {/* ✅ PUBLIC ROUTES */}
+      <Route element={<PublicLayout />}>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/regulation" element={<RegulationPage />} />
+        <Route path="/login" element={<AuthenticatePage />} />
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/verification" element={<VerificationPage />} />
+      </Route>
 
-      <main className="main-content">
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/regulation" element={<RegulationPage />} />
-          {/* Trang login cũng nằm trong Routes chung */}
-          <Route path="/login" element={<AuthenticatePage />} />
-          <Route path="/register" element={<RegisterPage />} />
-        </Routes>
-      </main>
+      {/* ✅ PRIVATE (AFTER LOGIN) ROUTES */}
+      <Route path="/auth/*" element={<DashboardLayout />}>
+        <Route index element={<Dashboard />} />
+        <Route path="bookingconfirm" element={<BookingConfirmationPage />}/>
+        <Route path="user" element={<UserDetailPage />}/>
+      </Route>
 
-      <Footer />
-    </div>
+    </Routes>
   );
 }
 

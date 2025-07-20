@@ -12,7 +12,6 @@ function AuthenticatePage() {
                     <h2 className="logo-subtitle">Connected court booking system</h2>
                 </div>
             </Fade>
-           {/* <SignUpForm /> */}
            <LoginForm />
         </div>
     )

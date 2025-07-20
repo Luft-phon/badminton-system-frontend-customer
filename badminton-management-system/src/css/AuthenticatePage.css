@@ -1,6 +1,5 @@
 .login-container {
     padding: 20px;
-    height: 100%;
     display: flex;
     justify-content: center;
     gap: 200px;
@@ -21,12 +20,21 @@
     gap: 20px;
 }
 
-.logo-title {
+.logo-title, .logo-subtitle {
     max-width: 500px;
+    color: var(--background);
 }
 
 .logo-title::after {
     content: " Member";
     color: var(--highlight);
+}
+.form-img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.form-img img{
+    width: 100%;
 }
 
