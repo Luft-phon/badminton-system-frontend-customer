@@ -30,6 +30,11 @@ const AvatarDropbox = () => {
 						User Profile <div className="RightSlot">⌘+T</div>
 					</DropdownMenu.Item>
 					</Link>				
+					<Link to='/auth/schedule'>
+					<DropdownMenu.Item className="DropdownMenuItem">
+						View Booking Schedule <div className="RightSlot">⌘+N</div>
+					</DropdownMenu.Item>
+					</Link>
 					<Link to='/auth/bookingConfirm'>
 					<DropdownMenu.Item className="DropdownMenuItem">
 						Booking History <div className="RightSlot">⌘+N</div>

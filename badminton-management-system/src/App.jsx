@@ -10,6 +10,7 @@ import DashBoardPage from "./page/landing/Dashboard";
 import VerificationPage from "./page/member/auth/VerificationPage";
 import BookingConfirmationPage from "./page/member/booking/BookingConfirmationPage";
 import UserDetailPage from "./page/member/user/UserDetailPage";
+import Calender from "./component/member/booking/Calender";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route index element={<DashBoardPage />} />
         <Route path="bookingconfirm" element={<BookingConfirmationPage />}/>
         <Route path="user" element={<UserDetailPage />}/>
+        <Route path="schedule" element={<Calender />}/>
       </Route>
 
     </Routes>

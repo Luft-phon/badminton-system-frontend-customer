@@ -1,0 +1,18 @@
+
+.fc .fc-timegrid-slot  {
+  padding: 20px;
+}
+
+.fc  {
+    background-color: white;
+    color: black;
+      overflow-x: auto;
+}
+
+.fc-scrollgrid {
+  overflow-x: auto;
+}
+
+.fc-header-toolbar {
+  margin: 20px;
+}
