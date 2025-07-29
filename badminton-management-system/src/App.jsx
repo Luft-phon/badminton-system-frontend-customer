@@ -1,14 +1,15 @@
 import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import PublicLayout from "./Layout/PublicLayout";
 import DashboardLayout from "./Layout/DashboardLayout";
-import LandingPage from "./page/LandingPage";
-import RegulationPage from "./page/RegulationPage";
-import AuthenticatePage from "./page/AuthenticatePage";
-import RegisterPage from "./page/RegisterPage";
-import Dashboard from "../src/page/Dashboard";
-import VerificationPage from "./page/VerificationPage";
-import BookingConfirmationPage from "./page/BookingConfirmationPage";
-import UserDetailPage from "./page/UserDetailPage";
+
+import LandingPage from "./page/landing/LandingPage";
+import RegulationPage from "./page/landing/RegulationPage";
+import AuthenticatePage from "./page/member/auth/AuthenticatePage";
+import RegisterPage from "./page/member/auth/RegisterPage";
+import DashBoardPage from "./page/landing/Dashboard";
+import VerificationPage from "./page/member/auth/VerificationPage";
+import BookingConfirmationPage from "./page/member/booking/BookingConfirmationPage";
+import UserDetailPage from "./page/member/user/UserDetailPage";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
 
       {/* ✅ PRIVATE (AFTER LOGIN) ROUTES */}
       <Route path="/auth/*" element={<DashboardLayout />}>
-        <Route index element={<Dashboard />} />
+        <Route index element={<DashBoardPage />} />
         <Route path="bookingconfirm" element={<BookingConfirmationPage />}/>
         <Route path="user" element={<UserDetailPage />}/>
       </Route>

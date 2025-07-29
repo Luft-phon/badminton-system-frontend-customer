@@ -1,5 +1,4 @@
-import { FaUser } from "react-icons/fa"
-import "../css/BookingDetail.css"
+import "../../../css/BookingDetail.css"
 function BookingDetail(prop){
     const info = prop.info;
     return(

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Dialog } from "radix-ui";
 import { Cross2Icon } from "@radix-ui/react-icons";
-import "../css/Dialog.css";
+import "../../css/Dialog.css";
 
 function DialogFeature({ className, dob, email, firstName, lastName, userID, phone }) {
 	const token = localStorage.getItem("accessToken");

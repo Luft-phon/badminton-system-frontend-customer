@@ -1,9 +1,9 @@
-import "../css/SignUpForm.css"
-import PasswordToggleFieldInput from "../component/PasswordField";
+import "../../../css/SignUpForm.css"
 import { FaGoogle } from "react-icons/fa";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Spinner } from "@radix-ui/themes";
+import PasswordToggleFieldInput from "../../shared/PasswordField";
 
 function SignUpForm() {
     const navigate = useNavigate();

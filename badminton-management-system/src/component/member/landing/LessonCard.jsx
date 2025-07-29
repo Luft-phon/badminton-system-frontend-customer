@@ -1,4 +1,4 @@
-import "../css/LessonCard.css";
+import "../../../css/LessonCard.css";
 function LessonCard({info}){
     return(
         <div className="card">

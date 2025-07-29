@@ -1,4 +1,4 @@
-import "../css/ContactItem.css"
+import "../../../css/ContactItem.css"
 function ContactItem({ item }) {
   return (
     <div className="contact-item">

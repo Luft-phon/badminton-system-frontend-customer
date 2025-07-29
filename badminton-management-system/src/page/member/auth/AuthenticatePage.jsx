@@ -1,7 +1,6 @@
-import "../css/AuthenticatePage.css"
+import LoginForm from "../../../component/member/auth/LoginForm";
+import "../../../css/AuthenticatePage.css"
 import { Fade } from "react-awesome-reveal";
-import LoginForm from "../component/LoginForm";
-import SignUpForm from "../component/SignUpForm";
 
 function AuthenticatePage() {
     return (

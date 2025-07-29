@@ -1,4 +1,4 @@
-import "../css/RegulationCard.css";
+import "../../../css/RegulationCard.css";
 function RegulationCard({ regulation }) {
     return (
         <div className="regulation-card">

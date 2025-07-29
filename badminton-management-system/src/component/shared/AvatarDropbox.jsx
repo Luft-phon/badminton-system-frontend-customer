@@ -6,9 +6,8 @@ import {
 	CheckIcon,
 	ChevronRightIcon,
 } from "@radix-ui/react-icons";
-import "../css/AvatarDropbox.css";
-import { FaUser } from "react-icons/fa";
-import AvatarIcon from "./Avatar";
+import "../../css/AvatarDropbox.css";
+import AvatarIcon from "../member/user/Avatar";
 import { Link } from "react-router-dom";
 
 const AvatarDropbox = () => {

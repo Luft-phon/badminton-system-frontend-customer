@@ -1,5 +1,5 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
-import "../css/Footer.css"
+import "../../css/Footer.css"
 import { Link } from "react-scroll"
 function Footer() {
     return (
