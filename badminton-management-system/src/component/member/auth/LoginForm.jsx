@@ -1,5 +1,5 @@
-import "../css/LoginForm.css"
-import PasswordToggleFieldInput from "../component/PasswordField";
+import "../../../css/LoginForm.css"
+import PasswordToggleFieldInput from "../../shared/PasswordField";
 import { FaGoogle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -60,7 +60,7 @@ function LoginForm() {
             <div className="form-content">
                 <div className="form-title">Login</div>
                 <div className="form-subtitle">Access to management system</div>
-                <div className="login-info"><strong>Email: thanhphongchupanh@gmail.com, Password: Abc@123</strong></div>
+                <div className="login-info"><strong>Email: thanhphongchupanh@gmail.com, Password: 123</strong></div>
             </div>
 
             <div className="form-group">

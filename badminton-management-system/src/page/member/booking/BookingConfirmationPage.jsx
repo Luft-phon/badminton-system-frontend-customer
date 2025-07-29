@@ -1,8 +1,8 @@
 import { FaUser } from "react-icons/fa"
-import BookingDetail from "../component/BookingDetail"
-import "../css/BookingConfirmationPage.css"
+import "../../../css/BookingConfirmationPage.css"
 import { useEffect, useState } from "react"
 import { Badge } from "@radix-ui/themes";
+import BookingDetail from "../../../component/member/booking/BookingDetail";
 function BookingConfirmationPage() {
     const [confirmation, setConfirmation] = useState([]);
     const [history, setHistory] = useState([]);

@@ -1,5 +1,5 @@
-import VerificationForm from "../component/VerificationForm";
-import "../css/AuthenticatePage.css"
+import VerificationForm from "../../../component/auth/VerificationForm";
+import "../../../css/AuthenticatePage.css"
 import { Fade } from "react-awesome-reveal";
 
 function VerificationPage() {

@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-import NotFound from './NotFound';
-import BookingDetail from '../component/BookingDetail';
+import NotFound from '../NotFound';
 
 function DashBoardPage() {
     const token = localStorage.getItem("accessToken");

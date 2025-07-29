@@ -1,11 +1,11 @@
 import { Element } from 'react-scroll';
-import '../css/landingPage.css';
-import AboutCard from '../component/AboutCard';
+import '../../css/landingPage.css';
 import { FaArrowAltCircleRight, FaClock, FaEnvelope, FaMapMarkedAlt, FaMapMarkerAlt, FaPhoneAlt, FaShower, FaUserFriends, FaUsers } from 'react-icons/fa';
-import ContactItem from '../component/ContactItem';
-import ContactForm from '../component/ContactForm';
-import LessonCard from '../component/LessonCard';
 import { Fade } from "react-awesome-reveal";
+import AboutCard from '../../component/member/landing/AboutCard';
+import ContactForm from '../../component/member/landing/ContactForm';
+import ContactItem from '../../component/member/landing/ContactItem';
+import LessonCard from '../../component/member/landing/LessonCard';
 function LandingPage() {
 
     const cards = [

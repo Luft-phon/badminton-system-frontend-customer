@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "../css/Navbar.css"
+import "../../css/Navbar.css"
 import { FaArrowUp, FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 import AvatarDropbox from "./AvatarDropbox";

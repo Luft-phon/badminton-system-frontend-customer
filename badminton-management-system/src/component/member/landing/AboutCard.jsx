@@ -1,4 +1,4 @@
-import '../css/AboutCard.css'
+import '../../../css/AboutCard.css'
 function AboutCard({card}){
    return (
     <div className="about-card">

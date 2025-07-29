@@ -1,5 +1,5 @@
-import RegulationCard from "../component/RegulationCard"
-import "../css/RegulationPage.css"
+import RegulationCard from "../../component/member/landing/RegulationCard";
+import "../../css/RegulationPage.css"
 function RegulationPage() {
     const regulations = [
         {

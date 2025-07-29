@@ -1,7 +1,7 @@
 import { FaUser } from "react-icons/fa";
-import "../css/UserDetail.css";
+import "../../../css/UserDetail.css";
 import { useEffect, useMemo, useState } from "react";
-import DialogFeature from "./Dialog";
+import DialogFeature from "../../shared/Dialog";
 
 function UserDetail() {
     const [user, setUser] = useState([]);

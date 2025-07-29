@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import "../css/AuthenticatePage.css"
+import "../../css/AuthenticatePage.css"
 import { Link, useNavigate } from "react-router-dom"
 import { Spinner } from "@radix-ui/themes"
 function VerificationForm() {
